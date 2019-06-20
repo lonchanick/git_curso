@@ -1,9 +1,18 @@
+
 git inti // inicia un repositorio
 git status //muestra el estado de los archivos
+
 git add file_name//agrega un archivo "-A": Para agregar todos
+	git add .//para agregar todos los archivos igual que con "-A"
+
 git commit //para mandar al repositorio
+	git commit -m "descripcion del commit" //para hacer comit junto con el comentario
+
 git log //lista los commits realizados
-git commit -m "descripcion del commit" //para hacer comit junto con el comentario
+
+git branch //muestra las ramas que hay
+	git branch PARAM // crea una nueva rama llamada PARAM
+	git checkout login
 
 -> CONFIGURANDO TU USUARIO
 	git config --global user.email "diego.arroyo2462050@gmail.com"
