@@ -1,0 +1,2 @@
+git inti // inicia un repositorio
+git status //muestra el estado de los archivos
