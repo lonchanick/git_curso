@@ -1,2 +1,11 @@
 git inti // inicia un repositorio
 git status //muestra el estado de los archivos
+git add file_name//agrega un archivo "-A": Para agregar todos
+git commit //para mandar al repositorio
+git log //lista los commits realizados
+git commit -m "descripcion del commit" //para hacer comit junto con el comentario
+
+-> CONFIGURANDO TU USUARIO
+	git config --global user.email "diego.arroyo2462050@gmail.com"
+	git config --global user.name "israel"
+
