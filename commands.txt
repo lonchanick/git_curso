@@ -7,12 +7,30 @@ git add file_name//agrega un archivo "-A": Para agregar todos
 
 git commit //para mandar al repositorio
 	git commit -m "descripcion del commit" //para hacer comit junto con el comentario
+	git commit --amend //para editar el comentario del commit realiado
 
 git log //lista los commits realizados
 
 git branch //muestra las ramas que hay
 	git branch PARAM // crea una nueva rama llamada PARAM
 	git checkout login
+===========================================================
+	ANTES DE EMPEZAR A EDITAR UN REPOSITORIO LOCAL (PC)
+===========================	===============================
+git pull origin master //Desde el directorio que vas a editar porsupuesto 
+
+===========================
+	GIT-HUB COMMANDS
+===========================	
+git clone https://github.com/lonchanick/git_curso.git //para clonar un repositorio
+
+git remote add origin https://www.git-hub.com/lonchanick/git_curso //para subir al GH
+
+git push -u origin master //prara subir los archivos al repositorio en la nube
+
+git pull origin master //para clonar desde un repositorio
+
+
 
 -> CONFIGURANDO TU USUARIO
 	git config --global user.email "diego.arroyo2462050@gmail.com"
